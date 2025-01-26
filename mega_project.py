@@ -38,7 +38,7 @@ def speak(text): # this is use to speak in aa better form
     
 
 def gemini_ai(command):
-       genai.configure(api_key="AIzaSyAiyFr7v26mPM_VQfLsy-oxdPAfxCFjE_c")
+       genai.configure(api_key="make your own")
        model = genai.GenerativeModel("gemini-1.5-flash")
        response = model.generate_content(command)
        speak(response.text)
