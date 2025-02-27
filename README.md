@@ -1,5 +1,6 @@
 # python_voice_assisstant
 Author - Shrajan Singh
+<br>
  this provide your answer in the speak manner using gemini api 
  <br>
  If we ask anything using this voice assistant it will give us the ans 
