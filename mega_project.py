@@ -62,7 +62,7 @@ def processCommand(c):
         webbrowser.open("www.linkedin.com")  
     elif "news" in c.lower():
         speak("Opening news")
-        r = requests.get(f"http://newsapi.org/v2/top-headlines?country=us&apiKey={newsapi}")  
+        r = requests.get(f"ake your own")  
         if r.status_code == 200:
             # parse the json response
             data = r.json()
